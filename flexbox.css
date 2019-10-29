@@ -15,14 +15,15 @@ body {
 }
 
 .contenedor {
-	/*margin: auto;*/
-	margin: 20 px;
+	margin: auto;
+	
 	width: 90%;
 	max-width: 1000px;
 	flex-direction: row;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: space-between;
 
 }
 
@@ -77,11 +78,11 @@ aside {
 }
 
 aside .ad {
-font-size: 30px;
-text-align: center;
-color:#fff;
-padding: 50px 0;
-background: #4264a2;
+	font-size: 30px;
+	text-align: center;
+	color:#fff;
+	padding: 50px 0;
+	background: #4264a2;
 }
 
 footer {
@@ -89,4 +90,20 @@ footer {
 	background: rgba (255,255,255, .2);
 	padding: 20px;
 	width: 100%;
+	color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:no-wrap;
+
+
+}
+
+footer  .redes-sociales a {
+	color: #fff;
+	text-decoration: underline ;
+	margin-left: 20px;
+}
+
+footer  .redes-sociales a:hover {
+	text-decoration:none;
 }
