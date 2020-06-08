@@ -1,5 +1,4 @@
 # flexbox
-<<<<<<< HEAD
 Probando desde LT, para margin master...
 =======
 Aquí se contienen proyectos reales de LT
